@@ -1,5 +1,4 @@
 CC = gcc
-AR = ar -rcs
 FLAGS = -Wall
 
 
@@ -17,7 +16,7 @@ txtfindmain.o: txtfindmain.c
 isortmain.o: isortmain.c 
 	$(CC) $(FLAG.oS) -c isortmain.c 
 	
-isort.o : isort.c isort.h
+isort.o: isort.c isort.h
 	$(CC) $(FLAGS) -c isort.c
 
 txtfind.o: txtfind.c txtfind.h

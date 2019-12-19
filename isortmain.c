@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "sort.h"
+#include "isort.h"
 #define SIZE 50
 
 int main() {
