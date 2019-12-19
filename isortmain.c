@@ -13,6 +13,7 @@ insertion_sort(Array, SIZE);
 printf("the sorted Array is : \n");
 printArray(Array,SIZE);
  
+printf("\n");
 
  return 0;
 }
