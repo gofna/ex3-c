@@ -52,7 +52,7 @@ int substring(char *str1 , char *str2){
 }
 
 int similar(char *s , char *t , int n){
-	printf("the word  : %s\n",s);
+	//printf("the word  : %s\n",s); test for me
 	int i = 0;
 	int count = 0;
 	int sizeS = strlen(s);
@@ -119,7 +119,7 @@ void print_similar_words(char *str){
 			}
 			else{
 				//printf("the word  : %s\n",w); //test for me
-				printf("similiar is?  : %d\n",similar(w, str , 1)); //test for me
+				//printf("similiar is?  : %d\n",similar(w, str , 1)); //test for me
 				char *temp = w;
 				if (similar(w, str , 1)){
 					printf("%s\n",temp);
